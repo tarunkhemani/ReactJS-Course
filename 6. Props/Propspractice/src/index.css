@@ -1,0 +1,44 @@
+*{
+  color: #fff;
+
+}
+
+.card{
+  
+  width: 200px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #333;
+}
+
+html, body{
+  height: 100%;
+  width: 100%
+}
+body{
+  background-color: #111;
+}
+
+.parent{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px; /* to maintain the gap between the cards inside parents*/
+}
+
+.card button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black
+  
+}
+
+.card img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
